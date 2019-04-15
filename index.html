@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vowel Finder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Vowel Finder</h1>
+      <form class="sub-wrapper" onsubmit="vowelFinder(event)">
+        <input type="text" id="word-input" placeholder="Enter a word" />
+        <button type="submit">Find!</button>
+      </form>
+      <h2 id="vowels"></h2>
+      <h2 id="vowels-count"></h2>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
